@@ -10,7 +10,7 @@
 #  OS X 10.9 or newer
 #############################################
 #CHECK FOR OS X 10.9
-if [[  $(sw_vers -productVersion | grep '10.9')  ]]
+if [[  $(sw_vers -productVersion | grep '10.10')  ]]
 then
    if [[ -f /etc/sysctl.conf ]]
    then
